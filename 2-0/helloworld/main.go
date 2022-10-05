@@ -4,10 +4,10 @@ import (
 	"fmt"
 )
 
-var age = 16
-
 func main() {
-	fmt.Println(age)
-	age = 24
-	fmt.Println(age)
+	names := []string{"Tanmay Bakshi","Baheer Kamal","Kathy"}
+	for i, v := range names {
+		fmt.Println(i)
+		fmt.Println(v)
+	}
 }
